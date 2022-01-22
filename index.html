@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD OPERATIONS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body>
+        <div class="sublayout">
+     <div>
+         <div class="adduser">
+             <h1>Add User</h1>
+             <input type="text" placeholder="unique id" id="number">
+             <input type="text" placeholder="name" id="name">
+             <input type="text" placeholder="email" id="email">
+             <input type="text" placeholder="phone" id="phone">
+             <button type="button" id="button" class="btn btn-primary" onclick="adduser()">submit</button>
+         </div>
+         <br>
+         <br>
+         <div class="update">
+             <h1>Update User</h1>
+             <input type="text" placeholder="unique id" id="unumber">
+             <input type="text" placeholder="name" id="uname">
+             <input type="text" placeholder="email" id="uemail">
+             <input type="text" placeholder="phone" id="uphone">
+         </div>
+     </div>
+     <div>
+        <table class="table table-dark">
+            <thead>
+              <tr>
+                <th scope="col">UNIQUE ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">PHONE</th>
+              </tr>
+            </thead>
+            <tbody class="body">
+              <tr>
+                <th scope="row"></th>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+     </div>
+       </div>
+    <script src="script.js"></script>
+</body>
+</html>

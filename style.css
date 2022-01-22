@@ -1,0 +1,15 @@
+
+.sublayout{
+    display:flex;
+    flex-direction:row;
+}
+.adduser{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+}
+.update{
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+}
